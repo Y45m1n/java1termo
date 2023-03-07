@@ -5,9 +5,9 @@ import java.util.Scanner;
 public class NotaFrequencia {
     Scanner sc= new Scanner (System.in);
     public void calcular (){
-        System.out.println( " Infome a nota 1 do aluno " );
+        System.out.println( " Informe a nota 1 do aluno " );
         int nota1 = sc.nextInt();
-        System.out.println( " Infome a nota 2 do aluno " );
+        System.out.println( " Informe a nota 2 do aluno " );
         int nota2 = sc.nextInt();
         //operação aritmética
         double mediaAluno = (nota1+nota2)/2;
