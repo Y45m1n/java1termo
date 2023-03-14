@@ -34,11 +34,20 @@ public void extra2() {
     public void extra3() {
     System.out.println(" Digite a letra!! ");
     String letra = sc.next();
+    String letraVogal = "";
     //Vogal == (A,E,I,O,U);
-      if (letra == A E) {
-    System.out.println(" É consoante!! ");
-      } else {
+      if (letraVogal == "a"  ) {
+    System.out.println(" É vogal!! ");
+      } else if (letraVogal== "e"){
         System.out.println(" É vogal!! ");
+      } else if (letraVogal== "i"){
+        System.out.println(" É vogal!! ");
+      } else if (letraVogal== "o"){
+        System.out.println(" É vogal!! ");
+      } else if (letraVogal== "u"){
+        System.out.println(" É vogal!! ");
+      } else {
+        System.out.println( " É consoante!! ");
       }
     
 
