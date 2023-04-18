@@ -79,7 +79,7 @@ public class Vetores {
     System.out.println("Sua 2º nota é "+ notas[1]);
     System.out.println("Sua 3º nota é "+ notas[0]);
     double [] notaMedia = new double [4];
-   // notaMedia = (notas [0] + notas[1] + notas [2] + notas[4])
+    // notaMedia = (notas [0] + notas[1] + notas [2] + notas[4]) ;
     System.out.println(" Suas notas são: " +notaMedia);
    }
 }

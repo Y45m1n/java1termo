@@ -1,10 +1,10 @@
 package ExerciciosIfElse;
-import java.lang.constant.Constable;
+
 import java.util.Scanner;
 
 public class ExercicioExtraIfElse {
 
-    private static final String A = null;
+    
     Scanner sc = new Scanner(System.in);
 
     public void extra1() {
@@ -37,17 +37,17 @@ public void extra2() {
     String letraVogal = "";
     //Vogal == (A,E,I,O,U);
       if (letraVogal == "a"  ) {
-    System.out.println(" É vogal!! ");
+    System.out.println( letra+ " É vogal!! ");
       } else if (letraVogal== "e"){
-        System.out.println(" É vogal!! ");
+        System.out.println(letra+ " É vogal!! ");
       } else if (letraVogal== "i"){
-        System.out.println(" É vogal!! ");
+        System.out.println(letra+ " É vogal!! ");
       } else if (letraVogal== "o"){
-        System.out.println(" É vogal!! ");
+        System.out.println(letra+ " É vogal!! ");
       } else if (letraVogal== "u"){
-        System.out.println(" É vogal!! ");
+        System.out.println(letra+ " É vogal!! ");
       } else {
-        System.out.println( " É consoante!! ");
+        System.out.println( letra+ " É consoante!! ");
       }
     
 

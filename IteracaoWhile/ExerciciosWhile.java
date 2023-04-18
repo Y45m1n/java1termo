@@ -1,6 +1,6 @@
 package IteracaoWhile;
 
-public class ExerciciosWhile {
+public class ExerciciosWhile { //listra extra vetores com o while
     public void exercicio1() {
         //B[i]= A[i]
         int vetorA[]= new int[]{3,5,7,11,13};
