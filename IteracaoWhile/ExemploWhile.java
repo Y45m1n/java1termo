@@ -3,7 +3,6 @@ package IteracaoWhile;
 import java.util.Random;
 import java.util.Scanner;
 
-import javax.swing.BoundedRangeModel;
 
 public class ExemploWhile {
     Scanner sc = new Scanner(System.in);

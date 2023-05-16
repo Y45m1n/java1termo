@@ -2,8 +2,6 @@ package IteracaoFor;
 
 import java.util.Scanner;
 
-import javax.swing.plaf.synth.SynthStyle;
-
 public class ExerciciosFor {
     Scanner sc = new Scanner(System.in);
 
