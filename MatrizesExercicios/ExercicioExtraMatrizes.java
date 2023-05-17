@@ -14,7 +14,7 @@ public class ExercicioExtraMatrizes {
         int matriz[][] = new int[4][4];
         for (int i = 0; i < matriz.length; i++) {
             for (int j = 0; j < matriz.length; j++) {
-                matriz[i][j] = rd.nextInt(10);
+                matriz[i][j] = (i+1)*(j+1);
             }
         }
         for (int i = 0; i < matriz.length; i++) {
@@ -25,6 +25,7 @@ public class ExercicioExtraMatrizes {
             System.out.println("|");
         }
     }
+
     public void exercicio2(){
         int matriz[][] = new int[4][4];
         for (int i = 0; i < matriz.length; i++) {
