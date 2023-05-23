@@ -65,7 +65,7 @@ public class ExerciciosFormativa {
         boolean tenteNovamente = true;
         int cont = 1;
         while (tenteNovamente) {
-            System.out.println("Dê um palpite de 0 à 1000");
+            System.out.println("Dê um palpite de 0 à 999");
             int nPalpite = sc.nextInt();
             if (nAleatorio == nPalpite) {
                 System.out.println("PARABÉNS VOCÊ ACERTOU E GANHARÁ UM BELO NADAAAA");
@@ -95,21 +95,41 @@ public class ExerciciosFormativa {
         // Exiba a quantidade de números pares existem nas posições ímpares do vetor
         // Exiba a quantidade de números ímpares existem nas posições pares do vetor
 
-        int lRandow = rd.nextInt(901)+100;
         
-        int[] classe = new int[] {lRandow};
-        System.out.println( "1° Posição- Índice [0]:"+ classe[0] );
-        
+        int vetor[] = new int[rd.nextInt(900)+100];
+        for (int i = 0; i < vetor.length; i++) {
+            vetor[i] = rd.nextInt(100)+1;
+        }
+
+        int contImparNoPar=0;
+        int contParNoImpar=0;
+        for (int i = 0; i < vetor.length; i++) {
+            if(vetor[i]%2 ==1){
+                System.out.println(vetor[i]);
+                if(i%2 ==1){
+                    contImparNoPar++;
+                }
+            }
+        }
+         
+         for (int i = 0; i < vetor.length; i++) {
+            if(vetor[i]%2 ==0){
+                System.out.println(vetor[i]);
+                if(i%2 ==0){
+                    contParNoImpar++;
+                }
+            }
+        }
+        for (int i = 1; i < vetor.length; i+=2) {
+            if(vetor[i]%2==1){
+                contImparNoPar++;
+            }
+        }
        
-            
-
-
-
-
-
-
-
-
-
+        for (int i = 0; i < vetor.length; i+=2) {
+            if(vetor[i]%2==0){
+                contParNoImpar++;
+            }
+        }
     }
 }
