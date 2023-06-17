@@ -4,7 +4,8 @@ public class ContaPF extends Conta {
 
     //atributo
 
-    String nCpf;
+    public static Object getNome;
+    String  nCpf;
 
      //metodos
     //construtor default
